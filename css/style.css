@@ -1,0 +1,27 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: 1px solid red;
+}
+
+/* HEADER */
+.header {
+    padding: 30px 0;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+}
+.nav {
+}
+.nav__list {
+    display: flex;
+    gap: 30px;
+}
+.nav__item {
+}
+.nav__item-link {
+}
