@@ -49,9 +49,33 @@
     url('../images/AP22193553216841-1880x1089.jpg');
     background-repeat: no-repeat;
     background-size: 400px, cover;
-    background-position: top right, center;
-}
-.hero__title {
+    background-position: 85% 20%;
 }
 .hero__button {
+    display: block;
+    margin: 0 auto;
+    width: 216px;
+    height: 50px;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.hero__button:hover,
+.hero__button:focus {
+    background-color: red;
+}
+
+.box_thumb {
+    display: flex;
+    flex-wrap: wrap;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box {
+    height: 190px;
+    width: calc(50% - 20px);
+    margin: 10px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
